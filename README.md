@@ -11,7 +11,7 @@ Logging the data into a SQLite 3 database.
 
 **sensorsData.db ------ Database file**
 
-**out.csv ------ csv file, contains all the temperature data that logged in my lab from June 30th to July 1st, 2018. ** 
+**out.csv ------ csv file, contains all the temperature data that logged in my lab from June 30th to July 1st, 2018.** 
 
 Shawn@mtu, June 2018
 
