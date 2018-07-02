@@ -1,0 +1,7 @@
+import sqlite3 as lite
+import sys
+con = lite.connect('sensorsData.db')
+with con: 
+    cur = con.cursor() 
+    cur.execute("INSERT INTO Temp_data VALUES(datetime)")
+    cur.execute("CREATE TABLE Temp_data(timestamp DATETIME, temp NUMERIC)")

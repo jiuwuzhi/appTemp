@@ -1,0 +1,5 @@
+$ sqlite3 sensorsData.db 
+sqlite> .headers on
+sqlite> .mode csv
+sqlite> .output out.csv
+sqlite> select * from Temp_Data;
